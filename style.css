@@ -1,11 +1,7 @@
 body{
     margin: 4%;
 }
-
-.grid-back{
-    
-}
-
+/* .five is the small yellow line on the background this code positions colors and shapes it*/
 .five {
     background-color: rgb(192, 220, 93);
     height: 1rem;
@@ -13,7 +9,7 @@ body{
     bottom: 11rem;
     width:700px;
 }
-
+/* .back colors the rest of the background blocks*/
 .back {
 
   height: 100px;
@@ -25,7 +21,8 @@ display: grid;
 grid-template-columns: auto;
 z-index: 0;
 }
-
+/*.one through four is the class tags for all of the 
+back ground pieces and these lines size and position them*/
 .one {
     position: relative;
     
@@ -51,7 +48,7 @@ z-index: 0;
     width: 700px;
     bottom:11.5rem
 }
-
+/*all .tri's are the codes for shaping and positioning the triangles*/
 .tricont {  
     background-color: ;
     height: 200px;
@@ -81,7 +78,8 @@ z-index: 0;
     left: 21.6rem;
     bottom: 43.8rem;
 }
-
+/*everything within line 80 to 133 is the code to shape and 
+side as well as position each of the circles*/
 .r {
     background-color: rgb(230, 120, 120);
 }
@@ -135,7 +133,10 @@ z-index: 0;
     bottom: 69.6rem;
     left: 7rem;
 }
-
+/*everything within line 134 to 332 is code for the stickfig 
+containers and their pieces designed to shape color size and 
+position each individual piece 
+then to position their actual container relative to the page*/
 .stickfig {
     height: 75px;
     width:40px;
@@ -333,7 +334,7 @@ z-index: 0;
     bottom: 65.5rem;
     left: 21.4rem;
 }
- 
+ /*below this is the basic css for the form page*/
 form {
     display: flex;
     flex-flow: column;
