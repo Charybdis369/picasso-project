@@ -1,0 +1,351 @@
+body{
+    margin: 4%;
+}
+
+.grid-back{
+    
+}
+
+.five {
+    background-color: rgb(192, 220, 93);
+    height: 1rem;
+    position:relative;
+    bottom: 11rem;
+    width:700px;
+}
+
+.back {
+
+  height: 100px;
+  width: 230px;
+  background-color: rgb(29, 151, 154);
+  grid-row:auto;
+
+display: grid;
+grid-template-columns: auto;
+z-index: 0;
+}
+
+.one {
+    position: relative;
+    
+    width:210px
+}
+
+.two {
+    position: relative;
+    left: 14rem;
+    bottom: 6.27rem;
+}
+
+.three {
+    position: relative;
+    left: 29.3rem;
+    bottom: 12.48rem;
+}
+
+.four {
+    background-color: rgb(29, 151, 154);
+    position: relative;
+    height: 250px;
+    width: 700px;
+    bottom:11.5rem
+}
+
+.tricont {  
+    background-color: ;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+.tri1 {
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid rgb(192, 220, 93);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: relative;
+    z-index: 1;
+    left: 31.2rem;
+    bottom: 25rem;
+}
+
+.tri2 {
+    height: 0;
+    width: 0;
+    border-bottom: 300px solid rgb(0, 115, 44);
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    position: relative;
+    z-index: 0;
+    left: 21.6rem;
+    bottom: 43.8rem;
+}
+
+.r {
+    background-color: rgb(230, 120, 120);
+}
+
+.y {
+    background-color: rgba(232, 210, 65, 0.95);
+}
+
+.s {
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.bi {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.cir1 {
+    bottom: 60rem;
+    left: 2rem;
+}
+
+.cir2 {
+    bottom: 56.95rem;
+    left: 2rem;
+}
+
+.cir3 {
+    bottom: 62rem;
+    left: 16.5rem;
+}
+
+.cir4 {
+    bottom: 60.6rem;
+    left: 11.3rem;
+}
+
+.cir5 {
+    bottom: 60.5rem;
+    left: 6rem;
+}
+
+.cir6 {
+    bottom: 69.6rem;
+    left: 7rem;
+}
+
+.stickfig {
+    height: 75px;
+    width:40px;
+    position: relative;
+    bottom: 56.1rem;
+
+}
+
+.h {
+    background-color: aqua;
+    height: 16px;
+    width: 13px;
+    border-radius: 50%;
+    left: .9rem;
+    bottom: 4.5rem;
+    position: absolute;
+}
+
+.al {
+    
+    height: 30px;
+    width: 6px;
+    background-color: aqua;
+    border-radius: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 2.5rem;
+    left: .45rem;
+    
+}
+
+.ar {
+    height: 30px;
+    width: 6px;
+    background-color: aqua;
+    border-radius: 30%;
+    transform: rotate(160deg);
+    position: absolute;
+    left: 1.9rem;
+    bottom: 2.5rem;
+}
+
+.b {
+    height: 30px;
+    width: 15px;
+    background-color: aqua;
+    border-radius: 10%;
+    position: absolute;
+    left: .9rem;
+    bottom: 2.5rem;
+}
+
+.ll {
+    height: 40px;
+    width: 8px;
+    background-color: aqua;
+    border-radius: 30%;
+    transform: rotate(170deg);
+    position: absolute;
+    left: 1.5rem;
+    bottom: .4rem;
+}
+
+.lr {
+    height: 40px;
+    width: 8px;
+    background-color: aqua;
+    border-radius: 30%;
+    transform: rotate(190deg);
+    position: absolute;
+    left: .7rem;
+    bottom: .4rem;
+}
+
+.h1 {
+    background-color: rgb(81, 91, 91);
+    height: 16px;
+    width: 13px;
+    border-radius: 50%;
+    left: .9rem;
+    bottom: 4.5rem;
+    position: absolute;
+}
+
+.al1 {
+    
+    height: 30px;
+    width: 6px;
+    background-color: rgb(81, 91, 91);
+    border-radius: 30%;
+    transform: rotate(20deg);
+    position: absolute;
+    bottom: 2.5rem;
+    left: .45rem;
+    
+}
+
+.ar1 {
+    height: 30px;
+    width: 6px;
+    background-color: rgb(81, 91, 91);
+    border-radius: 30%;
+    transform: rotate(160deg);
+    position: absolute;
+    left: 1.9rem;
+    bottom: 2.5rem;
+}
+
+.b1 {
+    height: 30px;
+    width: 15px;
+    background-color: rgb(81, 91, 91);
+    border-radius: 10%;
+    position: absolute;
+    left: .9rem;
+    bottom: 2.5rem;
+}
+
+.ll1 {
+    height: 40px;
+    width: 8px;
+    background-color: rgb(81, 91, 91);
+    border-radius: 30%;
+    transform: rotate(170deg);
+    position: absolute;
+    left: 1.5rem;
+    bottom: .4rem;
+}
+
+.lr1 {
+    height: 40px;
+    width: 8px;
+    background-color: rgb(81, 91, 91);
+    border-radius: 30%;
+    transform: rotate(190deg);
+    position: absolute;
+    left: .7rem;
+    bottom: .4rem;}
+
+.stickfig1 {
+    height: 75px;
+    width:40px;
+    position: relative;
+    bottom: 60.8rem;
+    left: 2.4rem;
+}
+
+.stickfig2 {
+    height: 75px;
+    width:40px;
+    position: relative;
+    bottom: 65.5rem;
+    left: 4.7rem; 
+}
+
+.stickfig3 {
+    position: relative;
+    bottom: 65.5rem;
+    left: 7.1rem;
+}
+
+.stickfig4 {
+    position: relative;
+    bottom: 65.5rem;
+    left: 9.5rem;
+}
+
+.stickfig5 {
+    position: relative;
+    bottom:65.5rem;
+    left: 11.9rem;
+}
+
+.stickfig6 {
+    position: relative;
+    bottom: 65.5rem;
+    left: 14.4rem;
+    background-color: rgb(55, 48, 48);
+}
+
+.stickfig7 {
+    position: relative;
+    bottom: 65.5rem;
+    left: 16.7rem;
+}
+
+.stickfig8 {
+    position: relative;
+    bottom: 65.5rem;
+    left: 19.1rem;
+}
+
+.stickfig9 {
+    position: relative;
+    bottom: 65.5rem;
+    left: 21.4rem;
+}
+ 
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+.formcont {
+    width: 300px;
+    border: 4px solid black;
+    border-style:dotted;
+    padding: 4px;
+}
+
+.formbod {
+    background-color: rgb(249, 182, 195);
+}
